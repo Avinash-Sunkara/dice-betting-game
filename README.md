@@ -1,39 +1,114 @@
+# 🎮 Python Games Collection
+
+✨ A collection of fun, interactive CLI-based Python games.
+🚀 Beginner-friendly projects with clean logic and engaging gameplay.
+
+---
+
+## 🧩 Games Included
+
+| Game                     | Description                             |
+| ------------------------ | --------------------------------------- |
+| 🎲 Dice Betting Game     | Bet on numbers and test your luck       |
+| ✊✋✌️ Rock Paper Scissors | Play against computer (first to 5 wins) |
+
+---
+
 # 🎲 Dice Betting Game
 
-> A fun, interactive CLI-based dice betting game built with Python.  
-> Simple logic, engaging gameplay, and beginner-friendly structure.
+## 📌 Description
 
+A fun betting game where you choose a number and place a bet.
+The system rolls dice and decides your win or loss.
 
-## ✨ Features
+---
 
-- 🎲 Simulates rolling 6 dice
-- 🎯 Bet on numbers from 1 to 6
-- 💰 Dynamic balance system
-- 🔁 Continuous gameplay loop
-- 🧠 Easy-to-understand logic (with Telugu comments 🇮🇳)
-- ⚡ Lightweight & fast (no external libraries)
+## ⚙️ Game Process
 
+1. Enter your balance 💰
+2. Place your bet 💵
+3. Choose a number (1–6) 🎯
+4. System rolls 6 dice 🎲
+5. Check result
+6. Repeat or exit
 
-## 🎮 Game Rules
+---
 
-1. 💰 Start with an initial balance  
-2. 🎯 Choose a number between **1 and 6**  
-3. 💵 Place your bet amount  
-4. 🎲 The system rolls **6 dice**  
-5. 📊 Outcomes:
-   - ✅ If your number appears **2 or more times → You WIN 🎉**
-   - ❌ If it appears less than 2 times → You LOSE 😢  
-6. 🔄 Continue playing until:
-   - You choose to exit  
-   - OR your balance becomes **0**
+## 📜 Rules
 
-## ⚙️ Game Procedure
+* If your number appears **2 or more times → You WIN 🎉**
+* If it appears less than 2 times → You LOSE 😢
+* Game continues until:
 
-```text
-1. Enter your balance
-2. Place your bet
-3. Choose a number (1–6)
-4. Dice will roll 🎲
-5. Check result:
-   → Win 💰 OR Lose 😢
-6. Repeat or Exit 🔄
+  * You exit ❌
+  * OR balance becomes **0**
+
+---
+
+## 💻 Example Output
+
+```bash
+Enter your balance: 100
+Enter your bet: 20
+Choose a number (1-6): 3
+
+Rolling dice...
+Dice results: [3, 2, 3, 5, 1, 6]
+
+🎉 You WIN!
+Updated balance: 140
+```
+
+---
+
+# ✊✋✌️ Rock Paper Scissors
+
+## 📌 Description
+
+Classic game vs computer. First to 5 points wins the game.
+
+---
+
+## ⚙️ Game Process
+
+1. Enter your choice (rock/paper/scissors)
+2. Computer randomly selects 🤖
+3. Game countdown animation ⏳
+4. Compare choices
+5. Update score
+6. Repeat until someone reaches 5 points
+
+---
+
+## 📜 Rules
+
+* Rock beats Scissors 🪨 > ✂️
+* Scissors beats Paper ✂️ > 📄
+* Paper beats Rock 📄 > 🪨
+* Same choice → Draw 🤝
+
+---
+
+## 💻 Example Output
+
+```bash
+Enter rock, paper, or scissors: rock
+
+⏳ Get ready...
+Rock...
+Paper...
+Scissors...
+Shoot! ✊✋✌️
+
+You chose: rock
+Computer chose: scissors
+
+🎉 You Win this round!
+
+Score → You: 1 | Computer: 0
+```
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
